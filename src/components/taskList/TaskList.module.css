@@ -1,0 +1,7 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow: auto;
+  max-height: calc(500px);
+}

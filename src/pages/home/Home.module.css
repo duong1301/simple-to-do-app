@@ -1,0 +1,28 @@
+.todo-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(260, 28%, 53%, 1);
+
+  background: linear-gradient(
+    360deg,
+    hsla(260, 28%, 53%, 1) 0%,
+    hsla(236, 41%, 45%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    360deg,
+    hsla(260, 28%, 53%, 1) 0%,
+    hsla(236, 41%, 45%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    360deg,
+    hsla(260, 28%, 53%, 1) 0%,
+    hsla(236, 41%, 45%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7C65A9", endColorstr="#444BA3", GradientType=1 );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

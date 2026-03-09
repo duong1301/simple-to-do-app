@@ -1,0 +1,62 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.check {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.6rem;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+.check:hover{
+    background-color: #fe594764;
+}
+
+.task-item.completed .check {
+  background-color: #fe5a47;
+  border: unset;
+}
+
+.task-item.completed .text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+
+
+.text {
+  font-size: 1.8rem;
+  margin-left: 16px;
+}
+
+.delete {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #888;
+}
+.delete:hover {
+  background-color: #e5e5e5;
+}
+
+.delete:active{
+    scale: 95%;
+}

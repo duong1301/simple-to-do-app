@@ -1,0 +1,9 @@
+.board{
+    padding: 64px 42px;
+    background-color: #fff;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 12px;
+    max-height: calc(80vh);
+    overflow-y: auto;
+}

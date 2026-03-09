@@ -1,0 +1,22 @@
+.add-task{
+    display: flex;
+    background-color: #edeef0;
+    height: 60px;
+    align-items: stretch;
+    border-radius: 60px;
+    margin: 32px 0;
+}
+
+.input{
+    background-color: transparent;
+    padding: 0 32px;
+    width: 100%;
+    font-size: 1.6rem;
+    outline: unset;
+    border: unset;
+}
+
+.add-task:has(.input:focus){
+    background-color:#ccc;
+}
+
